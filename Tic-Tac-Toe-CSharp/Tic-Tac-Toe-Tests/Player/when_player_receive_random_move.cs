@@ -35,5 +35,17 @@ namespace Tic_Tac_Toe_Tests.Player
             AssertThatResultIsNotMoreThat9();
         }
 
+        [Test]
+        public void should_never_return_a_string()
+        {
+            AssertThatResultIsNotAString();
+        }
+
+        [Test]
+        public void should_always_be_between_0_to_9()
+        {
+            AssertThatResultIsInRangeFrom0To9();
+        }
+
     }
 }

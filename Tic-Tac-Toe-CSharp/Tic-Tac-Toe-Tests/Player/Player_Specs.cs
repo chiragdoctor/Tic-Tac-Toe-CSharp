@@ -23,5 +23,15 @@ namespace Tic_Tac_Toe_Tests.Player
         {
             Assert.IsFalse(Result > 9);
         }
+
+        protected void AssertThatResultIsNotAString()
+        {
+            Assert.That(Result, Is.Not.InstanceOf<string>());
+        }
+
+        protected void AssertThatResultIsInRangeFrom0To9()
+        {
+            Assert.That(Result, Is.InRange(0, 9));
+        }
     }
 }
