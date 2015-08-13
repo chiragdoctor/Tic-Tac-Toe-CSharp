@@ -1,28 +1,27 @@
-﻿using System;
+﻿using NUnit.Framework;
+using System;
 
 namespace Tic_Tac_Toe_Tests.Player
 {
-    public class Player_Specs : Spec
+    public abstract class Player_Specs : Spec
     {
         protected IPlayer Player;
+        protected int Result;
+        protected int MoveCount;
 
         protected override void Setup()
         {
             Player = new AI();
         }
 
-        public override void Given()
+        protected void AssertThatResultIsNotMoreThat9()
         {
-            throw new NotImplementedException();
+            Assert.That(Result, Is.AtMost(9));      
         }
 
-        public override void When()
+        protected void AssertThatResultIsNOtGreaterThan9()
         {
-            throw new NotImplementedException();
+            Assert.IsFalse(Result > 9);
         }
-
-        
-
-
     }
 }
