@@ -7,9 +7,6 @@ namespace Tic_Tac_Toe_CSharp
     {
         public static void Create(List<string> cell)
         {
-            Console.WriteLine("Press any Key to start game: ");
-            Console.ReadKey();
-
             Console.WriteLine("Computer1 : X & Computer2 : O");
             Console.WriteLine("\n");
 
