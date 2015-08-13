@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using Tic_Tac_Toe_CSharp;
 
 namespace Tic_Tac_Toe_Tests.Player
 {

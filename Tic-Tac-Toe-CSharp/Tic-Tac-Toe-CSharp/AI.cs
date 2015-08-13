@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Tic_Tac_Toe_Tests.Player
+namespace Tic_Tac_Toe_CSharp
 {
     public interface IPlayer
     {

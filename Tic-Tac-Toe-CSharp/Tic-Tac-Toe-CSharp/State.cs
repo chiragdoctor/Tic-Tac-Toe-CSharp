@@ -1,4 +1,4 @@
-﻿namespace Tic_Tac_Toe_Tests.GameLogic
+﻿namespace Tic_Tac_Toe_CSharp
 {
     public enum State
     {

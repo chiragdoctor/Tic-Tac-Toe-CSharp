@@ -1,4 +1,3 @@
-Y:\playground\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\bin\Debug\Tic-Tac-Toe-CSharp.exe.config
 Y:\playground\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\obj\Debug\Tic-Tac-Toe-CSharp.csprojResolveAssemblyReference.cache
 Y:\playground\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\bin\Debug\Tic-Tac-Toe-CSharp.exe
 Y:\playground\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\bin\Debug\Tic-Tac-Toe-CSharp.pdb
