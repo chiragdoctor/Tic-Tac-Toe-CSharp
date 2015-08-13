@@ -63,6 +63,7 @@
     <Compile Include="Player\AI.cs" />
     <Compile Include="Player\IPlayer.cs" />
     <Compile Include="Player\Player_Specs.cs" />
+    <Compile Include="Player\when_player_plays_his_turn.cs" />
     <Compile Include="Player\when_player_receive_random_move.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Spec.cs" />

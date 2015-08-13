@@ -39,5 +39,10 @@ namespace Tic_Tac_Toe_Tests.Player
         {
             Assert.That(MoveCount, Is.EqualTo(0));
         }
+
+        protected void AssertIf3IsOccupiedForPlay()
+        {
+            Assert.IsFalse(IsPositionOccupied);
+        }
     }
 }
