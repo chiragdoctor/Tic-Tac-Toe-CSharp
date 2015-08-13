@@ -24,8 +24,7 @@ namespace Tic_Tac_Toe_CSharp
             Console.WriteLine("|  {0}  |  {1}  |  {2}", cell[7], cell[8], cell[9]);
             Console.WriteLine("|     |     |      |");
             Console.WriteLine(" __________________ ");
-
-            Console.ReadKey();
+           
         }
     }
 }
