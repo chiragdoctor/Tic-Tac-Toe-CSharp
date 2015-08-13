@@ -8,6 +8,7 @@ namespace Tic_Tac_Toe_Tests.Player
         protected IPlayer Player;
         protected int Result;
         protected int MoveCount;
+        protected bool IsPositionOccupied;
 
         protected override void Setup()
         {
@@ -32,6 +33,11 @@ namespace Tic_Tac_Toe_Tests.Player
         protected void AssertThatResultIsInRangeFrom0To9()
         {
             Assert.That(Result, Is.InRange(0, 9));
+        }
+
+        protected void AssertThatWhenAllMovesAreFinishedItReturn0()
+        {
+            Assert.That(MoveCount, Is.EqualTo(0));
         }
     }
 }

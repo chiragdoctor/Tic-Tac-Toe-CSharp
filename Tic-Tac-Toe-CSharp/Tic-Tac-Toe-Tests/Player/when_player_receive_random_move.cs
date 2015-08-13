@@ -47,5 +47,11 @@ namespace Tic_Tac_Toe_Tests.Player
             AssertThatResultIsInRangeFrom0To9();
         }
 
+        [Test]
+        public void when_all_cells_are_marked_move_count_should_be_0()
+        {
+            AssertThatWhenAllMovesAreFinishedItReturn0();
+        }
+
     }
 }
