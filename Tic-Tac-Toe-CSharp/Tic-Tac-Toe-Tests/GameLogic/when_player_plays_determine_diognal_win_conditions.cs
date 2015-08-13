@@ -8,7 +8,7 @@ namespace Tic_Tac_Toe_Tests.GameLogic
     {
         public override void Given()
         {
-            Column1 = new List<string>() { "0", "X", "2", "3", "4", "X", "6", "7", "8", "X" };
+            Column1 = new List<string>() { "0", "X", "2", "3", "4", "X", "6", "7", "X" };
             Column2 = new List<string>() { "0", "1", "2", "O", "4", "O", "6", "O", "8", "9" };
             NotMatching = new List<string>() { "0", "1", "2", "X", "4", "5", "6", "7", "X", "X" };
         }

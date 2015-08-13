@@ -8,7 +8,7 @@ namespace Tic_Tac_Toe_CSharp
 {
     public class Game
     {
-        private static readonly List<string> cells = new List<string>() { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+        private static List<string> cells;
         private static int player = 1;
         private static State match = 0;
         private IPlayer _player;
@@ -23,6 +23,7 @@ namespace Tic_Tac_Toe_CSharp
 
         public void Execute()
         {
+            cells = new List<string>() { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
             do
             {
                 Console.Clear();
@@ -38,23 +39,13 @@ namespace Tic_Tac_Toe_CSharp
                 player++;
 
             } while (match != State.Win && match != State.Draw);
-
             Console.Clear();
             Board.Create(cells);
             Console.WriteLine("\n");
 
             _match.Result(match, player);
+            Console.Write("Press any key to continue..");
             Console.ReadLine();
-
-
-            Console.Write("Wanna Rematch: (y/n)? ");
-            var rematch = Console.ReadLine();
-
-            if (rematch.ToString() == "y")
-            {
-                new Game(new AI(), new Match(), new GamePlay()).Execute();
-            }
-
         }
     }
 }

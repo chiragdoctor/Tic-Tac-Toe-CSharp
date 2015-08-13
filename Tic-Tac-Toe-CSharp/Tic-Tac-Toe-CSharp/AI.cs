@@ -21,7 +21,7 @@ namespace Tic_Tac_Toe_CSharp
         {
             var random = new Random();
             var moves = RemainingMoves(cells);
-            return moves.OrderBy(m => random.Next()).FirstOrDefault();
+            return moves.Where(o => o != 0).OrderBy(m => random.Next()).FirstOrDefault();
         }
 
         private static IEnumerable<int> RemainingMoves(IEnumerable<string> cells)
@@ -33,6 +33,7 @@ namespace Tic_Tac_Toe_CSharp
         public void Play(List<string> cells, int move, int player)
         {
             if (PositionIsOccupied(cells, move)) return;
+            System.Threading.Thread.Sleep(1000);
             SetMove(cells, move, player);
         }
 
