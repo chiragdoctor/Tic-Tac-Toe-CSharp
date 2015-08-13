@@ -45,6 +45,16 @@ namespace Tic_Tac_Toe_CSharp
 
             _match.Result(match, player);
             Console.ReadLine();
+
+
+            Console.Write("Wanna Rematch: (y/n)? ");
+            var rematch = Console.ReadLine();
+
+            if (rematch.ToString() == "y")
+            {
+                new Game(new AI(), new Match(), new GamePlay()).Execute();
+            }
+
         }
     }
 }

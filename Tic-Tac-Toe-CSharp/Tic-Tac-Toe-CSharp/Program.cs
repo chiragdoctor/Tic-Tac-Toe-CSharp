@@ -8,8 +8,8 @@ namespace Tic_Tac_Toe_CSharp
         static void Main(string[] args)
         {
             Console.Write("Do you wish to play: (y/n) ?  ");
-            var input = Console.ReadLine();
-            if(input.ToString() == "y")
+            var play = Console.ReadLine();
+            if(play.ToString() == "y")
             {
                 // Could add Dependency injection here. 
                 new Game(new AI(), new Match(), new GamePlay()).Execute();
