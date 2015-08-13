@@ -17,4 +17,14 @@ namespace Tic_Tac_Toe_Tests.GameLogic
             return State.NoState;
         }
     }
+
+    public class DiagonalWinState : IGameLogic
+    {
+        public State GetState(List<string> cells)
+        {
+            if (cells[1] == cells[5] && cells[5] == cells[9] || cells[3] == cells[5] && cells[5] == cells[7])
+                return State.Win;
+            return State.NoState;
+        }
+    }
 }
