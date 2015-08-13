@@ -61,8 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GameLogic\game_rules_specs.cs" />
-    <Compile Include="GameLogic\GameLogic.cs" />
-    <Compile Include="GameLogic\State.cs" />
     <Compile Include="GameLogic\when_player_plays_determine_diognal_win_conditions.cs" />
     <Compile Include="GameLogic\when_player_plays_determine_horizontal_win_condition.cs" />
     <Compile Include="GameLogic\when_player_plays_determine_horizontal_win_conditions.cs" />
