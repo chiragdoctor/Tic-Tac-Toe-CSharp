@@ -60,8 +60,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Player\AI.cs" />
-    <Compile Include="Player\IPlayer.cs" />
     <Compile Include="Player\Player_Specs.cs" />
     <Compile Include="Player\when_player_plays_his_turn.cs" />
     <Compile Include="Player\when_player_receive_random_move.cs" />
@@ -73,6 +71,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp.csproj">
+      <Project>{8d15a904-b1b0-413e-b06a-38813ce2a8f9}</Project>
+      <Name>Tic-Tac-Toe-CSharp</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

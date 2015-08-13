@@ -9,3 +9,5 @@ Y:\playground\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-Tests\bin\Debug\
 Y:\playground\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-Tests\bin\Debug\nunit.core.interfaces.dll
 Y:\playground\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-Tests\bin\Debug\nunit.util.dll
 Y:\playground\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-Tests\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+Y:\playground\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-Tests\bin\Debug\Tic-Tac-Toe-CSharp.exe
+Y:\playground\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-CSharp\Tic-Tac-Toe-Tests\bin\Debug\Tic-Tac-Toe-CSharp.pdb
