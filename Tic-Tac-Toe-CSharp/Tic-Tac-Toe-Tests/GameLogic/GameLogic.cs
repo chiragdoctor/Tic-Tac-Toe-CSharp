@@ -37,4 +37,15 @@ namespace Tic_Tac_Toe_Tests.GameLogic
             return State.NoState;
         }
     }
+
+    public class DrawState : IGameLogic
+    {
+        public State GetState(List<string> cells)
+        {
+            if (cells[1] != "1" && cells[2] != "2" && cells[3] != "3" && cells[4] != "4" && cells[5] != "5" && cells[6] != "6" &&
+                     cells[7] != "7" && cells[8] != "8" && cells[9] != "9")
+                return State.Draw;
+            return State.NoState;
+        }
+    }
 }
