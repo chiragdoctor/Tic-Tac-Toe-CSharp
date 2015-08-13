@@ -65,6 +65,7 @@
     <Compile Include="GameLogic\State.cs" />
     <Compile Include="GameLogic\when_player_plays_determine_diognal_win_conditions.cs" />
     <Compile Include="GameLogic\when_player_plays_determine_horizontal_win_condition.cs" />
+    <Compile Include="GameLogic\when_player_plays_determine_horizontal_win_conditions.cs" />
     <Compile Include="Player\Player_Specs.cs" />
     <Compile Include="Player\when_player_plays_his_turn.cs" />
     <Compile Include="Player\when_player_receive_random_move.cs" />

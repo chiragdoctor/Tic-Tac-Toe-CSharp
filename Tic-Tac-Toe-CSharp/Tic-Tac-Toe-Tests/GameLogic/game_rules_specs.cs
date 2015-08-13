@@ -15,6 +15,7 @@ namespace Tic_Tac_Toe_Tests.GameLogic
         protected List<string> NotMatching;
         protected IGameLogic HorizontalCondition;
         protected IGameLogic DiognalCondition;
+        protected IGameLogic VerticalWinCondition;
         
 
         protected State State;
@@ -23,6 +24,7 @@ namespace Tic_Tac_Toe_Tests.GameLogic
         {
             HorizontalCondition = new HorizontalWinState();
             DiognalCondition = new DiagonalWinState();
+            VerticalWinCondition = new VerticalWinState();
         }
 
         protected void AssertThatStateIsWin()
